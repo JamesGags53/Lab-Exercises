@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New York Mets Fan Page</title>
+	<style>
+		/* Global styles */
+		/* The styles below are used on all elements of the site */
+
+		/* Body styles */
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			margin: 0;
+			padding: 0;
+		}
+        /* Table styles */
+        table, th, td {
+  border: 1px solid;
+        }
+		/* Headings styles */
+		h1, h2, h3, h4, h5, h6 {
+			margin: 0;
+			font-weight: bold;
+		}
+
+		/* Paragraph styles */
+		p {
+			margin: 0;
+			padding: 10px;
+		}
+
+		/* Link styles */
+		a {
+			color: #0077c8;
+			text-decoration: none;
+		}
+
+		/* Link hover styles */
+		a:hover {
+			color: #d3dde6;
+			text-decoration: underline;
+		}
+
+		/* Local styles */
+		/* The styles below are used on specific elements of the site */
+
+		/* Header styles */
+		#header {
+			background-color: #ff5912;
+			color: #fff;
+			text-align: center;
+			padding: 10px;
+		}
+
+		/* Logo styles */
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 100%;
+			height: auto;
+			padding: 10px;
+			border: none;
+		}
+
+		/* Container styles */
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+
+		/* Section heading styles */
+		.section-heading {
+			background-color: #0077c8;
+			color: #fff;
+			padding: 10px;
+		}
+
+		/* Section heading h2 styles */
+		.section-heading h2 {
+			font-size: 24px;
+			margin: 0;
+			padding: 0;
+		}
+
+		/* Record table styles */
+		.record-table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		/* Record table th and td styles */
+		.record-table th, .record-table td {
+			padding: 8px;
+			text-align: center;
+			border: 1px solid #ddd;
+		}
+
+		/* Record table th styles */
+		.record-table th {
+			background-color: #f2f2f2;
+		}
+        /*The three styles below go unused, however I thought they were interesting after finding similar code on stack overflow. I was unable to incorporate it but would like to in the future.*/
+		/* Win styles */ 
+		.win {
+			color: green;
+			font-weight: bold;
+		}
+
+		/* Loss styles */
+		.loss {
+			color: red;
+			font-weight: bold;
+		}
+
+		/* Tied styles */
+		.tied {
+			color: gray;
+			font-weight: bold;
+		}
+        
+	</style>
+    <style>
+        
+		nav {
+			background-color: #0d2932;
+			color: #ffffff;
+			display: flex;
+			justify-content: center;
+
+			align-items: center;
+			padding: 15px;
+			margin-top: px;
+			margin-bottom: px;
+		}
+    </style>
+</head>
+
+
+<body>
+	<header id="header">
+		<h1>New York Mets Fan Page</h1>
+	</header>
+
+	<nav>
+		<a href="#">Home&nbsp;</a>
+		<a href="#">News&nbsp;</a>
+		<a href="#">Schedule&nbsp;</a>
+		<a href="#">Team&nbsp;</a>
+		<a href="#">Contact&nbsp;</a>
+	</nav>
+
+	<main>
+		<div class="container">
+			<section class="section-heading">
+				<h2>It's all about the Mets!</h2>
+			</section>
+
+			<img src="new-york-mets-logo-transparent.png" alt="New York Mets Logo" class="logo" width="150" height="150" >
+
+            
+	<p>The New York Mets are a Major League Baseball team that play in Citi Field in Flushing, Queens, New York City.</p>
+    <p>Founded in 1962, the New York Mets have been one of the most popular sports organiztions in the MLB.</p>
+    <p>With recent aquisitions of Cy Young award winning pitcher Justin Verlander, new exciting young talent, and All Star Players such as the back to back homerun derby champion Pete Alonso, the New York Mets are looking forward to a promising 2023 season.</p>
+
+			<section class="section-heading">
+				<h2> New York Mets Records</h2>
+			</section>
+			<table class="record-table"> 
+				<thead>
+					<tr>
+						<th>Past 10 seasons</th>
+                        <table style="width:50%">
+                            <tr>
+                              <th>Year</th>
+                              <th>Record</th> 
+                              <th>Finish</th>
+                            </tr>
+                            <tr>
+                              <td>2012</td>
+                              <td>74-88</td> 
+                              <td>Fourth in NL East</td>
+                            </tr>
+                            <tr>
+                              <td>2013</td>
+                              <td>74-88</td> 
+                              <td>Fourth in NL East</td>
+                            </tr>
+                            <tr>
+                              <td>2014</td>
+                              <td>79-83</td> 
+                              <td>Third in NL East</td>
+                            </tr>
+                            <tr>
+                              <td>2015</td>
+                              <td>90-72</td> 
+                              <td>National League Champions</td>
+                            </tr>
+                            <tr>
+                              <td>2016</td>
+                              <td>87-75</td> 
+                              <td>Second in NL Wild Card</td>
+                            </tr>
+                            <tr>
+                              <td>2017</td>
+                              <td>70-92</td> 
+                              <td>Fifth in NL East</td>
+                            </tr>
+                            <tr>
+                              <td>2018</td>
+                              <td>77-85</td> 
+                              <td>Fourth in NL East</td>
+                            </tr>
+                            <tr>
+                              <td>2019</td>
+                              <td>86-76</td> 
+                              <td>Third in NL East</td>
+                            </tr>
+                            <tr>
+                                <td>2020</td>
+                                <td>26-34</td> 
+                                <td>Fourth in NL East</td>
+                            <tr>
+                                <td>2021</td>
+                                <td>77-85</td> 
+                                <td>Third in NL East</td>
+                            </tr>
+                            <tr>
+                                <td>2022</td>
+                                <td>101-61</td> 
+                                <td>Second in NL East</td>
+                            </tr>
+
+                                <div>
+                                <p>Want to receive updates on the Mets? Enter your email address below:</p>
+                                <input type="email" placeholder="Email">
+                                <br><br>
+                                <a href="https://www.mlb.com/mets">Visit the New York Mets official website</a>
+                        </html>
